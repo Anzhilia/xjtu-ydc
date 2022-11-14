@@ -21,7 +21,7 @@
 	var yzm = false;
 	var currentTime = new Date(); //本地时间
 	var currentTimeStr = currentTime.toString();
-	var restString = " 09:06:01 GMT+08:00";
+	var restString = " 08:40:01 GMT+08:00";
 	var targetTimeStr = currentTimeStr.substring(0, 15) + restString;
 	var targetTime = new Date(targetTimeStr); //目标时间(根据今天的时间自动更新);
 	console.log("targetTime:" + targetTime);
