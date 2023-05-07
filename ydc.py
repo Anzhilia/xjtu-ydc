@@ -458,7 +458,7 @@ if denglu==True and shijian_1==True:
         if zb!=None:
             break
     #这里是验证码坐标获取
-    global startTime
+    #global startTime 默认全局
     startTime=datetime.datetime.utcnow()
     tlist=do_guiji(zb)
     #print(str(startTime)[:-3])
